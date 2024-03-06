@@ -1,0 +1,49 @@
+@charset "utf-8";
+/*Criando regras usando o fluxo de trabalho do MOBILE FIRST - 320px
+
+OBS: As regras aqui criadas também servirão para o site como um todo, ou seja, independente do tamanho da minha tela.*/
+
+body{
+    
+    font-family: sans-serif;  
+  /* background-image: url(/assets/Rectangle\ 119.jpg); */
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+img{
+    max-width: 100%;
+}
+
+h1 img{
+    width:60%;
+
+}
+
+ #topo{
+   text-align: center; 
+} 
+#IconMenu{
+    text-align: start;
+    color: black;
+    cursor: pointer;
+    min-height: 40px;
+    display: block;
+    overflow: hidden;
+    line-height: 40px;
+    padding-left: 1%;
+    font-size: 50px;
+}
+
+nav{
+    min-height: 40px;
+    text-transform: uppercase;
+    /* display: none; */
+}
+nav a{
+    display: flex;
+    text-decoration: none;
+}
+
+
