@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="/css/estilo.css" />
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -36,16 +39,13 @@
     </div>
   </header>
   <main>
-    <input>
     <hr />
     <img src="/assets/Rectangle 117.jpg" />
-    <h2>Lançamentos</h2>
+    <div class="titulos"><h2>Lançamentos</h2></div>
 
-    <nav>
+    <nav id="nav-main">
       <a href="#">Nike</a>
       <a href="#">Adidas</a>
-      <a href="#">NB</a>
-      <a href="#">Puma</a>
     </nav>
     <div class="card">
       <figure>
@@ -65,7 +65,7 @@
         <figcaption>Blusa Masculino</figcaption>
       </figure>
     </div>
-    <h2>Tempo Limitado</h2>
+    <div class="titulos"><h2>Tempo Limitado</h2></div>
     <div class="card">
       <figure>
         <img src="/assets/blusaosports.png" alt="" />
@@ -113,7 +113,7 @@
 
   <footer class="rodape">
     <div class="rodape-conteudo">
-      <h3 id="ajuda">Ajuda</h3>
+      <h3 class="ajuda">Ajuda</h3>
       <div class="menu-rodape">
         <ul>
           <li><a href="#">Dúvidas gerais</a></li>
@@ -128,13 +128,14 @@
         </ul>
       </div>
       <div class="rodape-pagamento">
-        <p>Formas de pagamento</p>
-        <img src="/assets/mastercard.png" alt="#" />
-        <img src="/assets/visa.png" alt="#" />
-        <img src="/assets/elo.png" alt="#" />
-        <img src="/assets/americanexpress.png" alt="#" />
-        <img src="/assets/pix.png" alt="#" />
-        <img src="/assets/boleto.png" alt="#" />
+        <h3 class="forma">Formas de pagamento</h3>
+        <div class="conteudo-pagamento">
+          <img src="/assets/mastercard.png" alt="#" />
+          <img src="/assets/visa.png" alt="#" />
+          <img src="/assets/elo.png" alt="#" />
+          <img src="/assets/americanexpress.png" alt="#" />
+          <img src="/assets/pix.png" alt="#" />
+        </div>
       </div>
 
       <div class="logo-rodape">
