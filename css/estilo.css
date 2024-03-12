@@ -150,5 +150,13 @@ h1 img {
 }
 
 .card{
-    display: flex;
+
 }
+
+figure{
+    margin: 0;
+    padding-left: 3%;
+}
+
+
+
