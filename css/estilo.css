@@ -6,7 +6,7 @@ OBS: As regras aqui criadas também servirão para o site como um todo, ou seja,
 body {
 
     font-family: sans-serif;
-    /* background-image: url(/assets/Rectangle\ 119.jpg);  */
+     /* background-image: url(/assets/Rectangle\ 119.jpg);  */
     background-attachment: fixed;
     margin: 0;
     padding: 0;
@@ -125,7 +125,7 @@ h1 img {
     font-family: "Alata", sans-serif;
     font-weight: 500;
     font-style: normal;
-    color: black; 
+    color: white; 
     font-size: 30px;
 
 }
@@ -158,11 +158,22 @@ figure{
     padding-left: 3%; 
     display: inline-grid;  
     margin-left: 49px;
+    border: 2px solid #FF9900;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+
+figure:hover{
+    border: 2px solid white;
+    transition: border;
 }
 
 figure img{
     height: 300px;
     width: 200px;
+    border-radius: 28px;
+    padding-top: 10px;
 }
 
 .paragrafo{
@@ -171,7 +182,37 @@ figure img{
     font-family: "Alata", sans-serif;
     font-weight: 500;
     font-style: normal;
-    color: black; 
+    color: white; 
 }
 
+#camiseta-melted p{
+  
+     height: 52px; 
+
+}
+#container-ofertas{
+    background-color: #FF9900;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 51px;
+}
+#emoji_people{
+    width: 44px;
+    font-size: 89px;
+}
+#emoji_people1{
+    width: 100px;
+    font-size: 108px;
+}
+#paragrafo-ofertas p{
+   padding: 0 3%;
+}
+#input-ofertas{
+    display: inline-block;
+}
+#cadastro-ofertas{
+    display: inline-grid;
+    height: 88px;
+    width: 90%;
+}
 
