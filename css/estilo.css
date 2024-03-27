@@ -306,4 +306,57 @@ aside img{
             position: relative;
             left: 69px;
         }
+        .rodape{
+            text-align: left;
+        }
+
+        .rodape-conteudo{
+            display: flex;
+        }
+
+        .menu-rodape{
+            margin-top: 1px;
+        }
+        .menu-rodape li {
+            text-transform: none;
+            
+            
+        }
+        .ajuda{
+            display: none;
+        }
+        .menu-rodape a{
+            padding: 5px;
+            margin-left: 1px;
+           
+        }
+        .rodape-pagamento{
+            margin-left: 82px;
+            margin-top: 34px;
+        }
+
+        .rodape-pagamento img{
+            padding: 14px;
+        }
+
+        .forma {
+            margin-top: 17px;
+            margin-bottom: 0px;
+            margin-left: 25px;
+            color: white;
+        }
+        .logo-rodape{
+            margin-top: 129px;
+        }
+        .logo-rodape img{
+            width: 304px;
+        }
+        .redes{
+            margin-top:96px;
+        }
+        h1 img{
+            width: 220px;
+        }
+
+
 }
