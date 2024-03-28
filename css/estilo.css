@@ -6,7 +6,7 @@ OBS: As regras aqui criadas também servirão para o site como um todo, ou seja,
 body {
 
     font-family: sans-serif;
-    background-image: url(/assets/Rectangle\ 119.jpg);
+    background-image: url(/assets/MicrosoftTeams-image.png);
     background-attachment: fixed;
     margin: 0;
     padding: 0;
@@ -268,8 +268,8 @@ figure img {
 }
 aside img{
     width: 90%;
-    margin-left: 6%;
-    box-shadow: 0px 0px 40px white;
+    margin-left: 5%;
+    box-shadow: 0px 0px 20px white;
 }
 
 
@@ -298,6 +298,9 @@ aside img{
         position: relative;
         left:310px;
 
+    }
+    h1 img{
+        width: 40%;
     }
 }
 
@@ -357,6 +360,47 @@ aside img{
         h1 img{
             width: 220px;
         }
+        #IconMenu{
+            display: none;
+        }
+        #navheader{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-right: 129px;
+            margin-left: 125px;
+            padding-top: 15px;
+        }
+        #navheader a{
+            border-radius: 10px;
+            text-transform: none;
+            width: 100px;
+        }
+        #topo{
+            background-color: black;
+        }
+        #topo h1{
+            margin: 0;
+            padding-top: 15px;
+        }
+        aside img{
+            margin-top: 15px;
+        }
+}
 
+@media screen and (min-width:1000px) {
 
+    aside img{
+        width: 70%;
+    }
+    aside{
+        margin-left: 150px;
+    }
+    #navheader{
+        margin-right: 198px;
+    margin-left: 156px;
+    }
+    #container-ofertas{
+      
+    }
 }
