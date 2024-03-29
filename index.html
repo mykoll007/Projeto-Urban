@@ -27,9 +27,8 @@
         menu
       </span>
       <h1>
-        <a href="index.html">
           <img src="assets/Logo.png" alt="Logo da página" />
-        </a>
+       
       </h1>
       <!--Nav vai as navegações para outras páginas-->
       <nav id="navheader">
@@ -43,8 +42,13 @@
   </header>
   <main>
     <hr />
-    <aside>
-      <img src="/assets/Rectangle 117.jpg" />
+    <aside class="carrossel">
+      <div id="img-carrossel" class="container-carrossel">
+      <img src="/assets/Rectangle 117.jpg"/>
+      <img src="/assets/Rectangle 118.png" alt="Logo da página"/>
+      <img src="assets/Rectangle 119.png" alt="Logo da página" />
+      <img src="assets/Rectangle 120.png" alt="Logo da página" />
+      </div>
     </aside>
     <div class="titulos">
       <h2>Lançamentos</h2>
@@ -133,7 +137,8 @@
         </span>
       </figure>
     </div>
-
+    <hr>
+  <div class="container-contofertas">
     <div id="container-ofertas">
       <span class="material-symbols-outlined" id="emoji_people">
         emoji_people
@@ -152,13 +157,15 @@
       <div id="button"><button>Enviar</button></div>
     </div>
     </div>
-
+  </div>
+  <hr id="hr">
     <div id="coleções">
       <p style="color: white;">Coleções</p>
       <p style="color: #ff9900;">Coleções</p>
       <p style="color: white">Coleções</p>
     </div>
 
+    <div class="container-contcoleção">
     <div id="container-coleção">
       <div id="container-adidas">
       <a href="#"><img src="assets/coleção-adidas.png" /></a>
@@ -171,6 +178,7 @@
     </div>
       
     </div>
+  </div>
   </main>
 
   <footer class="rodape">
@@ -200,15 +208,16 @@
         </div>
       </div>
 
+        
       <div class="logo-rodape">
         <a href="index.html"><img src="assets/Logo-rodape.png" /></a>
+        <div class="redes">
+          <a href="#"><img src="/assets/instagram.png" /></a>
+          <a href="#"><img src="/assets/twitter.png" /></a>
+          <a href="#"><img src="/assets/facebook.png" /></a>
+        </div>
       </div>
 
-      <div class="redes">
-        <a href="#"><img src="/assets/instagram.png" /></a>
-        <a href="#"><img src="/assets/twitter.png" /></a>
-        <a href="#"><img src="/assets/facebook.png" /></a>
-      </div>
     </div>
 
     <div class="assinatura">
@@ -217,6 +226,7 @@
   </footer>
 
   <script src="/js/interaçoes.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

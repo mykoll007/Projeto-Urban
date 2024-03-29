@@ -10,7 +10,7 @@ body {
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-    width: 100%;
+    /* width: 100%; */
 }
 
 img {
@@ -64,8 +64,23 @@ h1 img {
 
 #navheader a:hover,
 #IconMenu a:hover {
-    background-color: black;
+    background-color: white;
     color: #FF9900;
+}
+
+
+.carrossel{
+    overflow: hidden;
+}
+.container-carrossel{
+  display: flex;
+  
+  transition: transform 0.8s ease-in-out;
+  transform: translateX(0);
+}
+.container-carrossel img{
+    object-fit: cover;
+    width: 90%;
 }
 
 .rodape {
@@ -152,8 +167,6 @@ h1 img {
     color: black;
 }
 
-.card {}
-
 figure {
     margin: 1%;
     padding-left: 3%;
@@ -196,7 +209,7 @@ figure img {
 #container-ofertas {
     background-color: #FF9900;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 4px;
     padding-top: 51px;
 }
 
@@ -243,7 +256,9 @@ figure img {
     background-color: white;
     color: black;
 }
-
+#hr{
+    margin-top: 10px;
+}
 #coleções {
     display: flex;
     justify-content: center;
@@ -278,10 +293,6 @@ aside img{
         font-size: 33px
     }
 
-    #container-coleção{
-       
-    }
-
     #container-coleção img{
         width: 300px;
        
@@ -292,11 +303,13 @@ aside img{
     #container-nike{
         position: relative;
         left: 310px;
+        width: 283px;
     }
 
     #container-puma{
         position: relative;
         left:310px;
+        width: 283px;
 
     }
     h1 img{
@@ -305,16 +318,20 @@ aside img{
 }
 
 @media screen and (min-width:700px) {
-        #container-coleção{
-            position: relative;
-            left: 69px;
+        .container-contcoleção{
+            display: flex;
+    
+            justify-content: center;
+            margin-right: 292px;
         }
+
         .rodape{
             text-align: left;
         }
 
         .rodape-conteudo{
             display: flex;
+            justify-content: space-between;
         }
 
         .menu-rodape{
@@ -336,10 +353,11 @@ aside img{
         .rodape-pagamento{
             margin-left: 82px;
             margin-top: 34px;
+            width: 420px;
         }
 
         .rodape-pagamento img{
-            padding: 14px;
+            padding: 8px;
         }
 
         .forma {
@@ -349,13 +367,16 @@ aside img{
             color: white;
         }
         .logo-rodape{
-            margin-top: 129px;
+            margin-top: 86px;
         }
-        .logo-rodape img{
-            width: 304px;
-        }
+ 
         .redes{
-            margin-top:96px;
+            display: flex;
+        }
+        .redes img{
+            margin-top: 6px;
+            width: 38px;
+            padding: 0 14px;
         }
         h1 img{
             width: 220px;
@@ -378,6 +399,7 @@ aside img{
         }
         #topo{
             background-color: black;
+            padding-bottom: 10px;
         }
         #topo h1{
             margin: 0;
@@ -385,6 +407,9 @@ aside img{
         }
         aside img{
             margin-top: 15px;
+        }
+        main hr{
+            margin-top: 0;
         }
 }
 
@@ -400,7 +425,71 @@ aside img{
         margin-right: 198px;
     margin-left: 156px;
     }
-    #container-ofertas{
-      
+    main hr{
+        margin-top: 0;
     }
+    #hr{
+        margin-top: 10px;
+    }
+    #topo{
+        padding-bottom: 10px;
+    }
+    .container-contofertas{
+        display: flex;
+        justify-content: center;
+    }
+    #container-ofertas{
+        width: 800px;
+    }
+    #container-coleção img {
+        width: 375px;
+    }
+    #container-nike {
+        left: 390px;
+        width: 100%;
+    }
+    #container-puma {
+        left: 390px;
+        width: 100%;
+    }
+    .logo-rodape img{
+        width: 180px;
+    }
+    .redes img{
+        width: 38px
+    }
+    .logo-rodape{
+        margin-top: 102px;
+   
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #container-ofertas{
+        width: 1000px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    figure{
+        padding-left: 1%;
+    }
+    .card{
+        display: flex;
+        justify-content: center;
+    }
+    .container-contcoleção{
+        margin-right: 532px;
+        margin-bottom: 30px;
+    }
+    #container-coleção img{
+        width: 500px;
+    }
+    #container-nike {
+        left: 676px;
+    }
+    #container-puma{
+        left: 676px;
+    }
+
 }
